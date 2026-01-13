@@ -1,4 +1,5 @@
 # Proiect Închiriere Automobile (Java + JavaFX)
+RULARE ROMANA;
 
 Aplicație desktop realizată în Java, cu interfață JavaFX și build management prin Maven. Proiectul simulează un sistem de închiriere auto: gestionarea mașinilor, a utilizatorilor și operații de tip închiriere / anulare, organizat pe straturi (model / repository / service / gui).
 
@@ -33,3 +34,13 @@ Aplicație desktop realizată în Java, cu interfață JavaFX și build manageme
 
 ## Note
 - Proiectul include `.gitignore` pentru a exclude fișiere generate (`target/`, `out/`, `.idea/`, `*.iml`).
+
+RUN ENGLISH;
+## Run (IntelliJ)
+1. Open the project in IntelliJ as a Maven project (from `pom.xml`).
+2. Set the Project SDK to JDK 17+:
+    - File → Project Structure → Project SDK
+3. Run the main class:
+    - `src/main/java/gui/PornireAplicatie.java`
+4. If prompted, click “Load Maven Changes” to download dependencies.
+5. If JavaFX errors appear, reload Maven (Reload All Maven Projects) and re-check the JDK.
