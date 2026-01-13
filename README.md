@@ -27,6 +27,9 @@ Aplicație desktop realizată în Java, cu interfață JavaFX și build manageme
 2. Setează JDK-ul: **File → Project Structure → Project SDK** (JDK 17+).
 3. Rulează clasa principală:
     - `src/main/java/gui/PornireAplicatie.java`
+4. Dacă IntelliJ îți cere, apasă “Load Maven Changes” ca să descarce dependențele.
+5. Dacă apar erori JavaFX, verifică JDK 17+ și reimportă Maven (Reload All Maven Projects).
+   
 
 ## Note
 - Proiectul include `.gitignore` pentru a exclude fișiere generate (`target/`, `out/`, `.idea/`, `*.iml`).
