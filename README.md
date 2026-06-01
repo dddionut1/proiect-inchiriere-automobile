@@ -1,4 +1,4 @@
-# Proiect Închiriere Automobile (Java + JavaFX)
+Model Închiriere Automobile (Java + JavaFX)
 RULARE ROMANA;
 
 Aplicație desktop realizată în Java, cu interfață JavaFX și build management prin Maven. Proiectul simulează un sistem de închiriere auto: gestionarea mașinilor, a utilizatorilor și operații de tip închiriere / anulare, organizat pe straturi (model / repository / service / gui).
